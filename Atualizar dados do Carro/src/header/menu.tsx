@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import perfilImage from '../../assets/perfil1.png'; // Verifique o caminho
+import perfilImage from "../assets/perfil1.png"; // Verifique o caminho
 import './menu.css'; // Verifique se o caminho está correto
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';

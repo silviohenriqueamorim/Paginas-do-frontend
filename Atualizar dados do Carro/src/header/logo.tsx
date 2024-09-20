@@ -1,13 +1,12 @@
-import React from 'react';
-import logoImage from '../assets/logo.png'; // Verifique o caminho
-import './logo.css'; // Verifique se o caminho está correto
+import logoImage from '../assets/logo.png'; // Substitua pelo caminho para a sua imagem de logo
+import './logo.css'; // Arquivo CSS para estilizar o logo, se necessário
 
-const Logo: React.FC = () => {
+const Logo = () => {
   return (
     <img
       src={logoImage}
       alt="Logo"
-      className="logoImage"
+      className="logo-image"
     />
   );
 };

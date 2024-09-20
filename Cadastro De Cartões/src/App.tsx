@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+import Header from './header/Header';
 
 const App: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -20,6 +21,7 @@ const App: React.FC = () => {
 
   return (
     <div className="container">
+      <Header />
       <form onSubmit={handleSubmit} className="card-form">
         <h2>Informações do Cartão</h2>
         <div className="form-group">

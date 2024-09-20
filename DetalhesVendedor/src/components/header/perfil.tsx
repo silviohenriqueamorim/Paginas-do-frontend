@@ -1,13 +1,14 @@
-import React from 'react';
-import './perfil.css'; // Arquivo CSS para estilizar o perfil, se necessário
-import perfilImage from '/src/assets/perfil1.png';
+import perfilImage from '../assets/perfil1.png'; // Correct import path
+import './perfil.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 const Perfil = () => {
+  console.log('Image path:', perfilImage); // Check image path
+
   return (
     <div className='containerr'>
-      <div className='perfil-container'> {/* Renomeie para algo mais descritivo */}
+      <div className='foto'>
         <img
           src={perfilImage}
           alt="perfil"

@@ -21,7 +21,7 @@ body {
     line-height: 1.6;
 }
 
-.header {
+.Detalhes {
     background-color: var(--primary-color);
     color: var(--white);
     padding: 15px 20px;
@@ -51,7 +51,7 @@ body {
     z-index: 1000;
 }
 
-.nav-container {
+.nav-containerXa {
     max-width: 800px;
     margin: 0 auto;
     display: flex;

@@ -3,10 +3,9 @@ import './App.css';
 function App() {
   return (
     <div className="app-container">
-      <header className="header">
-      </header>
-
-      <main className="container">
+      <div>
+      </div>
+      <main className="containerXuxu">
   <h1 className="title">Regras e Políticas</h1>
 
   <h2 className="subtitle">Regra 1: Verificação de Identidade</h2>

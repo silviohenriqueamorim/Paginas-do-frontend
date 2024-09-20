@@ -3,18 +3,16 @@ import appIcon from './assets/medalhas.png';
 import carIcon from './assets/carro.png';
 import clockIcon from './assets/tempo-rapido.png';
 import './App.css'
-import './components/header'
+import Header from './components/header/Header';
 
 function App() {
 
   return (
 
     <div>
-      <div className="header">
-        <a href="#" className="back-button">Detalhes do vendedor</a>
-      </div>
+      <Header/>
       <nav className="nav-bar">
-        <div className="nav-container">
+        <div className="nav-containerXa">
           <a href="#" className="nav-item active">Perfil</a>
           <a href="#" className="nav-item">Anúncios</a>
           <a href="#" className="nav-item">Avaliações</a>

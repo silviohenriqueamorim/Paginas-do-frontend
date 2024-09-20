@@ -1,9 +1,10 @@
-import { useState, FormEvent } from 'react';
 import './App.css';
+import Header from './header/Header';
 
 function App() {
   return (
-    <div className="container">
+    <div className="containerXuxa">
+      <Header />
       <h1 className="title">Quem Somos Nós?</h1>
       <p className="text">
       Somos uma empresa dedicada a tornar a compra do seu carro novo uma experiência simples, transparente e sem estresse. Nossa missão é conectar você diretamente com as melhores ofertas do mercado, facilitando a negociação e garantindo que você encontre o veículo perfeito para as suas necessidades

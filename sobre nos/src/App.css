@@ -4,11 +4,10 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #e9ecef; /* Cor de fundo opcional */
   font-family: Arial, sans-serif; /* Fonte opcional */
 }
 
-.container {
+.containerXuxa {
   max-width: 805px; /* 5px maior do que 800px */
   width: 100%;
   padding: 20px;
